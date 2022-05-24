@@ -1,4 +1,4 @@
-```python
+"""python
 #@markdown Run this cell for imports and functions
 #@markdown 
 !pip install qutip
@@ -63,4 +63,4 @@ def single_spin_rotation_along_y(spin, amount): take a 3-d vector and "amount" a
 def single_spin_rotation_along_x(spin, amount): take a 3-d vector and "amount" as input, return a 3-d vector with a rotation of it along x-direction by "amount". Input: s=[sx,sy,sz], Output: s′=[s′x,s′y,s′z]
 
 def show_on_bloch(spin_realization, N): take an array of M random 3-d vectors, and atom number N as input, plot the array on a Bloch sphere. Note that the spin_realization contains M, the number of random realizations, of the 3-d vectors, and each vector should be calculated by all_S. Input: [S1,S2,⋯,SM] and  N
-```
+"""
